@@ -27,23 +27,17 @@
         </div>
       </div>
 </head>
-<head>
-  <link rel="stylesheet" href="https://unpkg.com/tailwindcss@1.2.0/dist/tailwind.min.css">
-  <script src="https://cdn.jsdelivr.net/gh/alpinejs/alpine@v1.9.8/dist/alpine.js" defer></script>
-</head>
-
 <body class="text-gray-800">
   <div class="container mx-auto px-2 py-2" x-data="{
             faqs: [
                 {
-                    question: 'Why do I need Alpine JS?',
-                    answer: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores iure quas laudantium dicta impedit, est id delectus molestiae deleniti enim nobis rem et nihil.',
-                    isOpen: true,
+                    question: 'What softwares am I confident or certified in?',
+                    answer: 'I have MOS certified in word, excel and power point. I can operate GitHub software with some confidence and can code in HTML. ',
                 },
                 {
-                    question: 'Why am I so awesome?',
-                    answer: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi cumque, nulla harum aspernatur veniam ullam provident neque temporibus autem itaque odit.',
-                    isOpen: false,
+                    question: 'Schooling',
+                    answer: 'Rocky Mountain college:Masters of Accountancy, Millbrook High School. ',
+                     isOpen: false,
                 },
                 {
                     question: 'Why learn on Scrimba?',
@@ -52,7 +46,7 @@
                 },
             ]
         }">
-    <h2 class="text-2xl font-bold">FAQs</h2>
+    <h2 class="text-2xl font-bold">Qualifications</h2>
     <div class="leading-loose text-lg mt-6">
       <template x-for="faq in faqs" :key="faq.question">
         <div>
