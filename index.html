@@ -5,7 +5,7 @@
     <div class="p-8">
         <div class="shadow-xl rounded-lg">
           <div style="background-image: url('https://images.pexels.com/photos/3759122/pexels-photo-3759122.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260')" class="h-64 bg-gray-200 bg-cover bg-center rounded-t-lg flex items-center justify-center"> 
-            <p class="text-black font-bold text-4xl">Masters of Accountancy and a background in computer science</p>
+            <p class="text-black font-bold text-4xl">Masters of Accountancy With Computer Science Knowledge</p>
           </div>
           <div class="bg-white rounded-b-lg px-8">
             <div class="relative">
@@ -13,9 +13,9 @@
             </div>
             <div class="pt-8 pb-8">
               <h1 class="text-2xl font-bold text-gray-700">Robert Mullaney</h1>
-              <p class="text-sm text-gray-600">From Stepheson Va</p>
+              <p class="text-sm text-gray-600">From Stepheson Virginia</p>
               
-              <p class="mt-6 text-gray-700">I am at Rocky for a masters of accountancy</p>
+              <p class="mt-6 text-black">I am at Rocky for a Masters of Accountancy</p>
               
               <div class="flex justify-around mt-8">
                 <i class="material-icons">Snowboarding</i>
@@ -27,12 +27,12 @@
         </div>
       </div>
 </head>
-<body class="text-gray-800">
+<body class="text-gray-700">
   <div class="container mx-auto px-2 py-2" x-data="{
             faqs: [
                 {
                     question: 'About me',
-                    answer: 'I am orininally from Virginia but came out to montana to further my education and get out on my own. I also came out because the snow is better here then on the ice coast. I have interest in programming because of my uncle who works on developing software for Hulu. I also have multiple friends in comp. sci.. I am hoping to learn enough to get a backgroud to see if this is something I would want to do with my accounting degree.',
+                    answer: 'I am originally from Virginia but came out to Montana to further my education and get out on my own. I also came out because the snow is much better here then on the ice coast. I have an interest in programming because of my uncle who works on developing software for Hulu. I also have multiple friends in comp. sci.. I am hoping to learn enough to get a backgroud to see if this is something I would want to do with my accounting degree.',
                 },
                 {
                     question: 'Schooling',
@@ -51,7 +51,7 @@
       <template x-for="faq in faqs" :key="faq.question">
         <div>
           <button class="w-full font-bold border-b border-gray-400 py-3 flex justify-between items-center mt-4"
-            @click="faqs = faqs.map(f => ({ ...f, isOpen: f.question !== faq.question ? false : !f.isOpen}))"><!-- Specs has it that only one component can be open at a time and also you should be able to toggle the open state of the active component too -->
+            @click="faqs = faqs.map(f => ({ ...f, isOpen: f.question !== faq.question ? false : !f.isOpen}))">
             <div x-text="faq.question"></div>
             <svg x-show="!faq.isOpen" class="fill-current" viewBox="0 0 24 24" width="24" height="24">
               <path class="heroicon-ui"
@@ -70,6 +70,4 @@
     </div>
   </div>
 </body>
-
-
 </html>
