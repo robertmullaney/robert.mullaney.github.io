@@ -1,0 +1,3 @@
+def will_i_make_it(distance, gasLeft, mpg = 25):
+    remaining=(gasLeft* mpg)
+    return remaining>= distance
