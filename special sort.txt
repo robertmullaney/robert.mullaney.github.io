@@ -1,3 +1,0 @@
-def specialSort(toSort)
-    toSort(if var%2==0 
-    else lst.append)
