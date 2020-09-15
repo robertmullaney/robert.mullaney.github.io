@@ -1,2 +1,3 @@
 def specialSort(toSort)
-    toSort(lst[0])
+    toSort(if var%2==0 
+    else lst.append)
