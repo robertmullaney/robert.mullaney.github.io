@@ -1,0 +1,2 @@
+def specialSort(toSort)
+    toSort(lst[0])
